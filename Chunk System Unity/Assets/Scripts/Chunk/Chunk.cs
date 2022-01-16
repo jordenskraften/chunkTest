@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Chunk : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public ChunkData chunkData;
+    public int x;
+    public int y;
+    public bool isExist; 
+    public Vector3 chunkPos;
+    public List<ObjectData> objects;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //тут крч надо загружать из файла дату чанка по его иксу и игреку 
 }
